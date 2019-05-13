@@ -1,7 +1,7 @@
 #	@(#)Makefile	8.2 (Berkeley) 4/19/94
 # $FreeBSD$
 
-DB=	jerkcity
+DB=	jerkcity isaac
 
 BLDS=	${DB:S/$/.dat/}
 FILES=	${DB} ${BLDS}
